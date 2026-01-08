@@ -1,0 +1,11 @@
+---
+#
+#  https://www.home-assistant.io/integrations/zha/
+#
+zha:
+  database_path: /config/zha/zigbee.db
+  enable_quirks: true
+  custom_quirks_path: /config/zha/quirks
+  zigpy_config:
+    ota:
+      extra_providers: [] # https://github.com/zigpy/zigpy/wiki/OTA-Configuration
